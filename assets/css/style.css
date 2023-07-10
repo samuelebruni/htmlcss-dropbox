@@ -51,6 +51,11 @@ body {
     margin: auto;
 }
 
+.container2{
+    width: 50%;
+    margin: auto;
+}
+
 .py-top4{
     padding-top: 4rem;
 }
@@ -59,8 +64,24 @@ body {
     padding-top: 2rem;
 }
 
+.py-top7{
+    padding-top: 7rem;
+}
+
+.my-bottom1{
+    margin-bottom: 1rem;
+}
+
 .gap2{
     gap: 2rem;
+}
+
+.gap1{
+    gap: 1rem;
+}
+
+.gap{
+    gap: 0.4rem;
 }
 
 /*#endregion*/
@@ -86,17 +107,25 @@ body {
 .debug .col-small{
     border: 2px solid black;
     height: 400px;
-    width: 50%;
 }
 
 .debug .col-big{
     border: 2px solid black;
     height: 400px;
-    width: 50%;
 }
 
 .debug .bc-main{
     height: 600px;
+}
+
+.debug .container2{
+    height: 500px;
+    background-color: deeppink;
+}
+
+.debug .col_plan{
+    border: 1px solid black;
+    height: 200px;
 }
 /*#endregion*/
 
@@ -128,7 +157,7 @@ nav{
 
 /*#endregion*/
 
-/*#region Main*/
+/*#region Jumbo - Main*/
 
 .bc-main{
     background-color: var(--db-bcmain);
@@ -162,3 +191,50 @@ nav{
     padding: 0.5rem;
 }
 
+/*#endregion*/
+
+/*#region Main*/
+
+.col_plan{
+    width: calc(100% / 3);
+    border: 1px solid #aaaeb9;
+}
+
+.text_plan{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+input{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.input div{
+    font-size: 14px;
+}
+
+.tipology{
+    text-align: center;
+    border-bottom: 1px solid #aaaeb9;
+    font-size: 14px;
+    padding: 0.7rem;
+    font-weight: bold;
+}
+
+.top-col h3{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.top-col{
+    font-size: 14px;
+    margin-top: 2rem;
+    padding-left: 1rem;
+    padding-right: 0.2rem;
+    margin-bottom: 3rem;
+}
+
+.time{
+    color: #aaaeb9;
+}
