@@ -1,4 +1,4 @@
-/* Commons */
+/* #region Commons */
 
 *{
     box-sizing: border-box;
@@ -10,4 +10,75 @@ body {
     font-family: 'Fredoka', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+}
+
+:root{
+    --db-textheader: color: #505050;
+}
+
+/* #endregion*/
+
+/*#region Utilities*/
+
+.flex{
+    display: flex;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.justify-end{
+    justify-content: flex-end;
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.align-center{
+    align-items: center;
+}
+
+/*#endregion*/
+
+/*#region Debug*/
+
+.debug header{
+    height: 80px;
+    background-color: red;
+}
+
+.debug .col-header{
+    height: 80px;
+    margin: auto;
+    border: 2px solid black;
+}
+
+/*#endregion*/
+
+/*#region Header*/      
+
+nav{
+    height: 80px;
+}
+
+.col-header{
+    width: 50%;
+    align-items: center;
+}
+
+.col-header a{
+    padding: 1rem;
+    text-decoration: none;
+    color: var(--db-textheader);
+    font-size: 14px;
+}
+
+#blue-button{
+    background-color: blue;
+    color: white;
+    height: 20px;
+    margin-right: 1rem;
+    padding: 0.5rem;
 }
