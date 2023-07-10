@@ -13,7 +13,9 @@ body {
 }
 
 :root{
-    --db-textheader: color: #505050;
+    --db-textheader: #505050;
+    --db-bcmain: #b4d0e7;
+    --db-button: #0061ff;
 }
 
 /* #endregion*/
@@ -22,6 +24,10 @@ body {
 
 .flex{
     display: flex;
+}
+
+.column{
+    flex-direction: column;
 }
 
 .justify-center{
@@ -40,6 +46,23 @@ body {
     align-items: center;
 }
 
+.container{
+    width: 60%;
+    margin: auto;
+}
+
+.py-top4{
+    padding-top: 4rem;
+}
+
+.py-top2{
+    padding-top: 2rem;
+}
+
+.gap2{
+    gap: 2rem;
+}
+
 /*#endregion*/
 
 /*#region Debug*/
@@ -55,6 +78,26 @@ body {
     border: 2px solid black;
 }
 
+.debug .container{
+    height: 450px;
+    background-color: orange;
+}
+
+.debug .col-small{
+    border: 2px solid black;
+    height: 400px;
+    width: 50%;
+}
+
+.debug .col-big{
+    border: 2px solid black;
+    height: 400px;
+    width: 50%;
+}
+
+.debug .bc-main{
+    height: 600px;
+}
 /*#endregion*/
 
 /*#region Header*/      
@@ -69,7 +112,7 @@ nav{
 }
 
 .col-header a{
-    padding: 1rem;
+    padding: 0.5rem;
     text-decoration: none;
     color: var(--db-textheader);
     font-size: 14px;
@@ -82,3 +125,40 @@ nav{
     margin-right: 1rem;
     padding: 0.5rem;
 }
+
+/*#endregion*/
+
+/*#region Main*/
+
+.bc-main{
+    background-color: var(--db-bcmain);
+    height: 490px;
+}
+
+.col-small{
+    width: 35%;
+    font-size: 14px;
+    padding right: 1rem;
+}
+
+.col-big{
+    width: 65%;
+}
+
+.maintitle{
+    font-size: 54px;
+    font-weight: bolder;
+}
+
+.jumbo{
+    width: 100%;
+    height: 320px;
+}
+
+.buttom{
+    text-decoration: none;
+    color: white;
+    background-color: var(--db-button);
+    padding: 0.5rem;
+}
+
