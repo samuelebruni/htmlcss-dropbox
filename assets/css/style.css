@@ -50,6 +50,10 @@ body {
     justify-content: space-between;
 }
 
+.justify-space{
+    justify-content: space-around;
+}
+
 .align-center{
     align-items: center;
 }
@@ -92,8 +96,16 @@ body {
     padding-right: 1rem;
 }
 
+.py-right2{
+    padding-right: 2rem;
+}
+
 .py-bottom{
     padding-bottom: 1.5rem;
+}
+
+.py-bottom4{
+    padding-bottom: 4rem;
 }
 
 .my-top3{
@@ -130,6 +142,10 @@ body {
 
 .gap1{
     gap: 1rem;
+}
+
+.gap6{
+    gap: 2rem;
 }
 
 .gap{
@@ -243,6 +259,14 @@ nav{
     padding: 0.5rem;
 }
 
+#blue-button:hover{
+    background-color: #38c3fa;
+}
+
+nav a:hover{
+    border-bottom: 2px solid black;
+}
+
 /*#endregion*/
 
 /*#region Jumbo - Main*/
@@ -339,6 +363,11 @@ input{
     font-size: 14px;  
 }
 
+
+div .buttom:hover{
+    background-color: #38c3fa;
+}
+
 .top-col h5{
     font-size: 16px;
     font-weight: bold;
@@ -348,6 +377,7 @@ input{
 .buttom{
     text-align: center;
     margin-right: 1rem;
+    font-size: 14px;
 }
 
 .horizontal-col{
@@ -405,9 +435,14 @@ input{
     margin-right: 7.5rem;
 }
 
-.buttom2 a{
+.buttom2{
     text-decoration: none;
     color: black;
+}
+
+.buttom2:hover{
+    color: white;
+    background-color: black;
 }
 
 .col-operation{
@@ -526,4 +561,42 @@ input{
     border-bottom: 1px solid #d1d1d1;
     font-size: 14px;
     font-weight: bold;
+}
+
+/*#endregion*/
+
+/*#region Footer*/
+
+footer{
+    background-color: black;
+    color: white;
+    box-shadow: 0 0 5px black;
+}
+
+.col-foot{
+    width: calc(100% / 5);
+}
+
+footer ul{
+    list-style: none;
+    font-size: 14px;
+}
+
+footer a{
+    text-decoration: none;
+    color: #9da790;
+}
+
+.container3{
+    width: 75%;
+    margin: auto;
+}
+
+.language{
+    color: #84817c;
+}
+
+.btn:hover{
+    color: white;
+    background-color: black;
 }
