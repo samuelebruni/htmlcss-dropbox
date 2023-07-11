@@ -34,6 +34,10 @@ body {
     flex-wrap: wrap;
 }
 
+.justify-start{
+    justify-content: flex-start;
+}
+
 .justify-center{
     justify-content: center;
 }
@@ -116,6 +120,17 @@ body {
     font-size: 25px;
 }
 
+.absolute{
+    position: absolute;
+    left: -70px;
+    top: 40px;
+
+}
+
+.relative{
+    position: relative;
+}
+
 /*#endregion*/
 
 /*#region Debug*/
@@ -161,7 +176,15 @@ body {
 }
 /*#endregion*/
 
-/*#region Header*/      
+/*#region Header*/ 
+
+header{
+    position: sticky;
+    top: 0;
+    height: 80px;
+    background-color: white;
+    box-shadow: 0 0 5px black;
+}
 
 nav{
     height: 80px;
@@ -430,4 +453,8 @@ input{
     height: 160px;
     margin: auto;
     margin-top: 0.65rem;
+}
+
+.bigcol-sponsor p{
+    font-size: 14px;
 }
