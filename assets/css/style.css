@@ -64,6 +64,10 @@ body {
     margin: auto;
 }
 
+.py-top{
+    padding-top: 0.5rem;
+}
+
 .py-top1{
     padding-top: 1rem;
 }
@@ -80,12 +84,24 @@ body {
     padding-top: 7rem;
 }
 
+.py-top9{
+    padding-top: 9rem;
+}
+
 .py-right1{
     padding-right: 1rem;
 }
 
+.py-bottom{
+    padding-bottom: 1.5rem;
+}
+
 .my-top3{
     margin-top: 3rem;
+}
+
+.my-top7{
+    margin-top: 7rem;
 }
 
 .my-bottom1{
@@ -96,8 +112,16 @@ body {
     margin-bottom: 3rem;
 }
 
+.my-bottom6{
+    margin-bottom: 6rem;
+}
+
 .my-right{
     margin-right: 1rem;
+}
+
+.gap3{
+    gap: 3rem;
 }
 
 .gap2{
@@ -110,6 +134,10 @@ body {
 
 .gap{
     gap: 0.4rem;
+}
+
+.gap11{
+    gap: 11rem;
 }
 
 .grey{
@@ -129,6 +157,10 @@ body {
 
 .relative{
     position: relative;
+}
+
+.lh{
+    line-height: 2rem;
 }
 
 /*#endregion*/
@@ -184,6 +216,7 @@ header{
     height: 80px;
     background-color: white;
     box-shadow: 0 0 5px black;
+    z-index: 10;
 }
 
 nav{
@@ -396,11 +429,11 @@ input{
 
 .minicol-sponsor{
     width: 16.66%;
-    height: 180px;
+    height: 200px;
 }
 
 .bigcol-sponsor{
-    height: 180px;
+    height: 200px;
     width: 33.32%;
 }
 
@@ -450,11 +483,47 @@ input{
 
 .container-shadows{
     width: 92%;
-    height: 160px;
+    height: 180px;
     margin: auto;
     margin-top: 0.65rem;
 }
 
 .bigcol-sponsor p{
     font-size: 14px;
+}
+
+.logo-img{
+    filter: invert(1);
+}
+
+.bigcol-sponsor{
+    font-size: 14px;
+    padding-right: 1rem;
+    padding-left: 3rem;
+}
+
+.bc-sponsor{
+    background-color: var(--db-bcmain);
+    height: 200px;
+}
+
+.btn{
+    text-decoration: none;
+    background-color: #ffffff;
+    padding: 0.5rem;
+    color: #46484a;
+    font-size: 14px;
+}
+
+.tx-color{
+    color: #620b2c;
+}
+
+.faq .mod{
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+    border-top: 1px solid #d1d1d1;
+    border-bottom: 1px solid #d1d1d1;
+    font-size: 14px;
+    font-weight: bold;
 }
