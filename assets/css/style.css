@@ -554,13 +554,32 @@ div .buttom:hover{
     color: #620b2c;
 }
 
-.faq .mod{
+.faq{
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     border-top: 1px solid #d1d1d1;
     border-bottom: 1px solid #d1d1d1;
     font-size: 14px;
     font-weight: bold;
+}
+
+.question{
+    font-weight: lighter;
+    font-size: 14px;
+    display: none;
+    padding-top: 1rem;
+}
+
+.faq:hover .question{
+    display: inline-block;
+}
+
+.faq i{
+    transition: 0.4s;
+}
+
+.faq:hover i{
+    transform: rotate(180deg);
 }
 
 /*#endregion*/
